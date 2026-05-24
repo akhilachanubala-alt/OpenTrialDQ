@@ -1,0 +1,9 @@
+﻿nct_id,study_title,study_status,start_date,sponsor_name,enrollment_count,phase
+NCT00000001,Cardiometabolic Biomarker Study,Completed,2021-05-10,Example University,120,Phase 2
+NCT00000002,Remote Monitoring Feasibility Study,Recruiting,2024-02-15,Open Health Institute,80,Not Applicable
+NCT00000003,Oncology Treatment Registry,Terminated,2020-11-03,North Valley Research,45,Phase 1
+,Missing Identifier Study,Completed,2022-08-01,Example University,33,Phase 3
+NCT00000005,Future Start Date Study,Recruiting,2099-01-01,Future Trials Group,10,Phase 2
+NCT00000006,Invalid Status Study,Paused,2023-04-12,Example University,70,Phase 2
+NCT00000002,Duplicate Identifier Study,Completed,2021-09-19,Open Health Institute,150,Phase 4
+NCT00000008,Missing Sponsor Study,Withdrawn,2022-03-22,,25,Phase 1

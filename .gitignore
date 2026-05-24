@@ -1,0 +1,14 @@
+﻿.pytest_cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
+outputs/
+*.parquet/
+*.csv.tmp
+.DS_Store

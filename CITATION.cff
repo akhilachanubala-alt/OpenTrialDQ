@@ -1,0 +1,11 @@
+﻿cff-version: 1.2.0
+title: OpenTrialDQ
+message: If you use this software, please cite it using the metadata from this file.
+type: software
+authors:
+  - family-names: Chanubala
+    given-names: Akhila
+repository-code: https://github.com/akhilachanubala-alt/OpenTrialDQ
+abstract: PySpark toolkit for configurable data quality checks on public clinical trial datasets.
+license: Apache-2.0
+version: 0.1.0

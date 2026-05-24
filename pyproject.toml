@@ -1,0 +1,34 @@
+﻿[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opentrialdq"
+version = "0.1.0"
+description = "PySpark toolkit for configurable data quality checks on public clinical trial datasets."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+authors = [
+  {name = "Akhila Chanubala"}
+]
+keywords = ["pyspark", "data-quality", "clinical-trials", "life-sciences", "data-engineering"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+  "pyspark>=3.4"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

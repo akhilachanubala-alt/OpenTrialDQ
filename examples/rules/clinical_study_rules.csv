@@ -1,0 +1,6 @@
+﻿rule_id,table_name,column_name,rule_type,rule_value,severity
+R001,clinical_study,nct_id,not_null,,critical
+R002,clinical_study,nct_id,unique,,critical
+R003,clinical_study,study_status,allowed_values,"Recruiting|Completed|Terminated|Withdrawn|Not yet recruiting",high
+R004,clinical_study,start_date,date_not_future,,medium
+R005,clinical_study,sponsor_name,not_null,,high
