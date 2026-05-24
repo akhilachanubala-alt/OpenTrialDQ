@@ -1,4 +1,4 @@
-﻿# OpenTrialDQ Architecture
+# OpenTrialDQ Architecture
 
 OpenTrialDQ uses a metadata-driven validation pattern.
 

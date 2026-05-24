@@ -1,4 +1,4 @@
-﻿from pyspark.sql import SparkSession
+from pyspark.sql import SparkSession
 
 from opentrialdq.engine import validate_dataset
 

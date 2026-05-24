@@ -1,4 +1,4 @@
-﻿# Designing a Metadata-Driven Data Quality Framework for Life Sciences Analytics with PySpark
+# Designing a Metadata-Driven Data Quality Framework for Life Sciences Analytics with PySpark
 
 Life sciences analytics depends on trust in data. Whether a team is working with clinical study metadata, commercial engagement records, laboratory operations, customer interactions, or product adoption metrics, the same problem appears again and again: data pipelines are only useful when downstream teams can trust that the data is complete, consistent, traceable, and ready for analysis.
 

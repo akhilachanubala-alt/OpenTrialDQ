@@ -1,4 +1,4 @@
-﻿# Roadmap
+# Roadmap
 
 ## v0.1
 

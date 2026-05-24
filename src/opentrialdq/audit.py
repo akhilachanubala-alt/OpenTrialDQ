@@ -1,4 +1,4 @@
-﻿"""Audit summary helpers for OpenTrialDQ."""
+"""Audit summary helpers for OpenTrialDQ."""
 
 from __future__ import annotations
 

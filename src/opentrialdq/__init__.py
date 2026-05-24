@@ -1,4 +1,4 @@
-﻿"""OpenTrialDQ: configurable data quality checks for public clinical trial data."""
+"""OpenTrialDQ: configurable data quality checks for public clinical trial data."""
 
 from opentrialdq.engine import ValidationResult, validate_dataset
 

@@ -1,4 +1,4 @@
-﻿"""Validation engine for OpenTrialDQ."""
+"""Validation engine for OpenTrialDQ."""
 
 from __future__ import annotations
 

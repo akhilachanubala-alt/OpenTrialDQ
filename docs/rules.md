@@ -1,4 +1,4 @@
-﻿# Validation Rules
+# Validation Rules
 
 OpenTrialDQ uses a CSV rule configuration to describe validation behavior.
 

@@ -1,4 +1,4 @@
-﻿# Security Policy
+# Security Policy
 
 OpenTrialDQ is an educational and open-source data engineering toolkit. It should not be used to process sensitive data without appropriate review and controls.
 

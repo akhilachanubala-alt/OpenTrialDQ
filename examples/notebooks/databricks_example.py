@@ -1,4 +1,4 @@
-﻿# Databricks notebook source
+# Databricks notebook source
 # OpenTrialDQ example notebook
 
 from opentrialdq.engine import validate_dataset

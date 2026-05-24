@@ -1,4 +1,4 @@
-﻿# Contributing to OpenTrialDQ
+# Contributing to OpenTrialDQ
 
 Thank you for your interest in OpenTrialDQ.
 

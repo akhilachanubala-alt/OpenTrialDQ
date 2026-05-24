@@ -1,4 +1,4 @@
-﻿"""Rule helpers for OpenTrialDQ."""
+"""Rule helpers for OpenTrialDQ."""
 
 from __future__ import annotations
 
