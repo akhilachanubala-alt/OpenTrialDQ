@@ -20,6 +20,8 @@ OpenTrialDQ provides a lightweight starting point for metadata-driven validation
 
 ## Current Features
 
+- ClinicalTrials.gov API URL builder and response flattener
+- Public ClinicalTrials.gov fixture for repeatable tests
 - Rule-driven validation from CSV configuration
 - Not-null checks
 - Allowed-value checks
@@ -36,19 +38,37 @@ OpenTrialDQ provides a lightweight starting point for metadata-driven validation
 OpenTrialDQ/
   src/opentrialdq/
     audit.py
+    clinicaltrials.py
     engine.py
     rules.py
   examples/
+    clinicaltrials_api_example.py
     data/clinical_studies_sample.csv
+    data/clinicaltrials_response_sample.json
     rules/clinical_study_rules.csv
+    rules/clinicaltrials_api_rules.csv
     notebooks/databricks_example.py
   tests/
+    test_clinicaltrials.py
     test_engine.py
   docs/
     architecture.md
-  articles/
-    metadata_driven_data_quality.md
+    clinicaltrials_api.md
+    rules.md
 ```
+
+## ClinicalTrials.gov API Example
+
+OpenTrialDQ includes a public-data helper for ClinicalTrials.gov API v2 responses. The helper flattens selected study-level fields such as NCT ID, status, sponsor, conditions, phase, enrollment, and locations into analytics-ready rows.
+
+```python
+from opentrialdq.clinicaltrials import fetch_studies, studies_response_to_dataframe
+
+response = fetch_studies(query_term="cardiovascular", page_size=5)
+studies_df = studies_response_to_dataframe(spark, response)
+```
+
+This example uses public ClinicalTrials.gov data only and is intended for data engineering demonstrations.
 
 ## Example Rule Configuration
 
@@ -110,7 +130,7 @@ result.audit_summary.show(truncate=False)
 
 ## Roadmap
 
-- ClinicalTrials.gov API ingestion
+- ClinicalTrials.gov API ingestion and flattening
 - JSON flattening into bronze/silver/gold analytics tables
 - Schema drift detection
 - Reference checks

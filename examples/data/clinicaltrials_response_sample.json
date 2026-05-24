@@ -1,0 +1,63 @@
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT10000001",
+          "briefTitle": "Digital Follow-up Study for Cardiology Patients",
+          "officialTitle": "A Digital Follow-up Study for Cardiology Patient Engagement"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {"date": "2021-05-10", "type": "ACTUAL"},
+          "completionDateStruct": {"date": "2022-01-15", "type": "ACTUAL"}
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {"name": "Example University", "class": "OTHER"}
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": ["PHASE2"],
+          "enrollmentInfo": {"count": 120, "type": "ACTUAL"}
+        },
+        "conditionsModule": {
+          "conditions": ["Cardiovascular Diseases"]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {"country": "United States"},
+            {"country": "United States"}
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT10000002",
+          "briefTitle": "Remote Monitoring Feasibility Study"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "startDateStruct": {"date": "2024-02-15", "type": "ACTUAL"}
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {"name": "Open Health Institute", "class": "OTHER"}
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL",
+          "enrollmentInfo": {"count": 80, "type": "ESTIMATED"}
+        },
+        "conditionsModule": {
+          "conditions": ["Remote Monitoring", "Patient Engagement"]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {"country": "United States"},
+            {"country": "Canada"}
+          ]
+        }
+      }
+    }
+  ]
+}

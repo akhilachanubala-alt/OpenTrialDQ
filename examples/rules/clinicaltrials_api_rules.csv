@@ -1,0 +1,6 @@
+rule_id,table_name,column_name,rule_type,rule_value,severity
+R001,clinicaltrials_api_study,nct_id,not_null,,critical
+R002,clinicaltrials_api_study,nct_id,unique,,critical
+R003,clinicaltrials_api_study,overall_status,allowed_values,"ACTIVE_NOT_RECRUITING|COMPLETED|ENROLLING_BY_INVITATION|NOT_YET_RECRUITING|RECRUITING|SUSPENDED|TERMINATED|WITHDRAWN|AVAILABLE|NO_LONGER_AVAILABLE|TEMPORARILY_NOT_AVAILABLE|APPROVED_FOR_MARKETING|WITHHELD|UNKNOWN",high
+R004,clinicaltrials_api_study,start_date,not_null,,medium
+R005,clinicaltrials_api_study,sponsor_name,not_null,,high
