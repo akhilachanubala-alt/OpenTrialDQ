@@ -41,7 +41,7 @@ Purpose:
 
 ### 3. Hashnode or Medium Article
 
-Publish `publication/article_publish_ready.md` as the first long-form article.
+Published on Hashnode: https://lifesciencesdataengineering.hashnode.dev/designing-reusable-data-quality-checks-for-public-clinical-trial-data-with-pyspark
 
 Recommended title:
 
@@ -88,7 +88,7 @@ These may require editorial review.
 1. Create GitHub Release.
 2. Add GitHub topics.
 3. Publish LinkedIn launch post.
-4. Publish Hashnode or Medium article.
+4. Publish Hashnode article. DONE.
 5. Share article link on LinkedIn as a follow-up post.
 6. Invite feedback through GitHub issues.
 7. Submit to DZone or HackerNoon after one more project improvement.

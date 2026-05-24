@@ -137,6 +137,13 @@ result.audit_summary.show(truncate=False)
 
 
 
+
+## Published Article
+
+Read the first public article about OpenTrialDQ:
+
+[Designing Reusable Data Quality Checks for Public Clinical Trial Data with PySpark](https://lifesciencesdataengineering.hashnode.dev/designing-reusable-data-quality-checks-for-public-clinical-trial-data-with-pyspark)
+
 ## Citation and Publication
 
 Suggested project quote:
