@@ -136,6 +136,20 @@ result.audit_summary.show(truncate=False)
 ```
 
 
+
+## Citation and Publication
+
+Suggested project quote:
+
+> OpenTrialDQ is an open-source PySpark toolkit for validating public ClinicalTrials.gov datasets with configurable data quality rules.
+
+Citation and publication materials are available in:
+
+- [publication/how_to_cite_and_quote.md](publication/how_to_cite_and_quote.md)
+- [publication/publication_plan.md](publication/publication_plan.md)
+- [publication/article_publish_ready.md](publication/article_publish_ready.md)
+- [publication/linkedin_launch_post.md](publication/linkedin_launch_post.md)
+
 ## Recognition and Usage Tracking
 
 If you use OpenTrialDQ, please consider starring the repository, opening an issue with feedback, or citing the project metadata in `CITATION.cff` after a versioned release.
