@@ -66,9 +66,10 @@ def _load_rules(rules_df: DataFrame, table_name: str) -> list[DataQualityRule]:
 
 
 def _with_record_id(df: DataFrame, record_id_column: str | None) -> DataFrame:
+    generated_id = F.monotonically_increasing_id().cast("string")
     if record_id_column:
-        return df.withColumn("record_id", F.col(record_id_column).cast("string"))
-    return df.withColumn("record_id", F.monotonically_increasing_id().cast("string"))
+        return df.withColumn("record_id", F.coalesce(F.col(record_id_column).cast("string"), generated_id))
+    return df.withColumn("record_id", generated_id)
 
 
 def _add_unique_rule_helpers(df: DataFrame, rules: list[DataQualityRule]) -> DataFrame:
