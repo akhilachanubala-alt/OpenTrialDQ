@@ -149,6 +149,8 @@ Citation and publication materials are available in:
 - [publication/publication_plan.md](publication/publication_plan.md)
 - [publication/article_publish_ready.md](publication/article_publish_ready.md)
 - [publication/linkedin_launch_post.md](publication/linkedin_launch_post.md)
+- [publication/github_release_v0.1.0.md](publication/github_release_v0.1.0.md)
+- [publication/publish_checklist.md](publication/publish_checklist.md)
 
 ## Recognition and Usage Tracking
 
