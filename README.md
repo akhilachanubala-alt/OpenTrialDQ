@@ -18,6 +18,13 @@ Life sciences analytics depends on data that is complete, consistent, and tracea
 
 OpenTrialDQ provides a lightweight starting point for metadata-driven validation using PySpark.
 
+
+## Plain-English Use Case
+
+OpenTrialDQ helps data engineers validate public clinical trial data before analytics. It retrieves public ClinicalTrials.gov records, flattens nested JSON into table-like rows, applies configurable data quality rules, and produces passed records, failed records, and an audit summary.
+
+Read the full use case and flow here: [docs/use_case.md](docs/use_case.md)
+
 ## Current Features
 
 - ClinicalTrials.gov API URL builder and response flattener
