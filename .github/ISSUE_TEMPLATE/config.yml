@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ClinicalTrials.gov API documentation
+    url: https://clinicaltrials.gov/data-api/api
+    about: Official API documentation for public ClinicalTrials.gov data.

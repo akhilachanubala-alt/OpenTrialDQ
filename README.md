@@ -135,6 +135,17 @@ result.failed_records.show(truncate=False)
 result.audit_summary.show(truncate=False)
 ```
 
+
+## Recognition and Usage Tracking
+
+If you use OpenTrialDQ, please consider starring the repository, opening an issue with feedback, or citing the project metadata in `CITATION.cff` after a versioned release.
+
+Project usage and visibility can be tracked through GitHub stars, forks, issues, pull requests, releases, traffic insights, article metrics, and future DOI citations.
+
+See: [docs/recognition_tracking.md](docs/recognition_tracking.md)
+
+Suggested repository topics are listed here: [docs/github_topics.md](docs/github_topics.md)
+
 ## Roadmap
 
 - ClinicalTrials.gov API ingestion and flattening
