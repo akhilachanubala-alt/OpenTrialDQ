@@ -1,0 +1,214 @@
+﻿{
+    "source":  "ClinicalTrials.gov public API v2",
+    "query":  "diabetes",
+    "records":  50,
+    "csv_file":  "docs\\opentriallens\\sample-data\\clinicaltrials_diabetes_50.csv",
+    "quality_score":  "97%",
+    "failed_checks":  14,
+    "total_enrollment":  13494,
+    "recruiting_trials":  7,
+    "status_counts":  [
+                          {
+                              "name":  "Completed",
+                              "count":  31
+                          },
+                          {
+                              "name":  "Recruiting",
+                              "count":  7
+                          },
+                          {
+                              "name":  "Unknown",
+                              "count":  7
+                          },
+                          {
+                              "name":  "Active Not Recruiting",
+                              "count":  2
+                          },
+                          {
+                              "name":  "Terminated",
+                              "count":  2
+                          },
+                          {
+                              "name":  "Not Yet Recruiting",
+                              "count":  1
+                          }
+                      ],
+    "phase_counts":  [
+                         {
+                             "name":  "Not applicable",
+                             "count":  21
+                         },
+                         {
+                             "name":  "Missing",
+                             "count":  10
+                         },
+                         {
+                             "name":  "Phase 2",
+                             "count":  8
+                         },
+                         {
+                             "name":  "Phase 4",
+                             "count":  5
+                         },
+                         {
+                             "name":  "Phase 3",
+                             "count":  5
+                         },
+                         {
+                             "name":  "Phase 1",
+                             "count":  4
+                         }
+                     ],
+    "sponsor_class_counts":  [
+                                 {
+                                     "name":  "Other",
+                                     "count":  37
+                                 },
+                                 {
+                                     "name":  "Industry",
+                                     "count":  10
+                                 },
+                                 {
+                                     "name":  "Fed",
+                                     "count":  2
+                                 },
+                                 {
+                                     "name":  "Nih",
+                                     "count":  1
+                                 }
+                             ],
+    "country_counts":  [
+                           {
+                               "name":  "United States",
+                               "count":  16
+                           },
+                           {
+                               "name":  "United Kingdom",
+                               "count":  5
+                           },
+                           {
+                               "name":  "China",
+                               "count":  5
+                           },
+                           {
+                               "name":  "France",
+                               "count":  4
+                           },
+                           {
+                               "name":  "Austria",
+                               "count":  4
+                           },
+                           {
+                               "name":  "Germany",
+                               "count":  4
+                           },
+                           {
+                               "name":  "South Korea",
+                               "count":  3
+                           },
+                           {
+                               "name":  "Missing",
+                               "count":  3
+                           },
+                           {
+                               "name":  "Finland",
+                               "count":  3
+                           },
+                           {
+                               "name":  "Canada",
+                               "count":  3
+                           }
+                       ],
+    "issue_counts":  [
+                         {
+                             "name":  "required",
+                             "count":  13
+                         },
+                         {
+                             "name":  "numeric_positive",
+                             "count":  1
+                         }
+                     ],
+    "top_failed_records":  [
+                               {
+                                   "record_index":  3,
+                                   "nct_id":  "NCT02640859",
+                                   "field":  "phases",
+                                   "rule":  "required",
+                                   "severity":  "medium",
+                                   "reason":  "Trial phase is missing"
+                               },
+                               {
+                                   "record_index":  11,
+                                   "nct_id":  "NCT05604703",
+                                   "field":  "phases",
+                                   "rule":  "required",
+                                   "severity":  "medium",
+                                   "reason":  "Trial phase is missing"
+                               },
+                               {
+                                   "record_index":  19,
+                                   "nct_id":  "NCT01375166",
+                                   "field":  "phases",
+                                   "rule":  "required",
+                                   "severity":  "medium",
+                                   "reason":  "Trial phase is missing"
+                               },
+                               {
+                                   "record_index":  20,
+                                   "nct_id":  "NCT01492166",
+                                   "field":  "phases",
+                                   "rule":  "required",
+                                   "severity":  "medium",
+                                   "reason":  "Trial phase is missing"
+                               },
+                               {
+                                   "record_index":  30,
+                                   "nct_id":  "NCT02067962",
+                                   "field":  "countries",
+                                   "rule":  "required",
+                                   "severity":  "medium",
+                                   "reason":  "Location country coverage is missing"
+                               },
+                               {
+                                   "record_index":  35,
+                                   "nct_id":  "NCT00000161",
+                                   "field":  "countries",
+                                   "rule":  "required",
+                                   "severity":  "medium",
+                                   "reason":  "Location country coverage is missing"
+                               },
+                               {
+                                   "record_index":  35,
+                                   "nct_id":  "NCT00000161",
+                                   "field":  "enrollment_count",
+                                   "rule":  "numeric_positive",
+                                   "severity":  "medium",
+                                   "reason":  "Enrollment count should be a positive number"
+                               },
+                               {
+                                   "record_index":  38,
+                                   "nct_id":  "NCT05921461",
+                                   "field":  "phases",
+                                   "rule":  "required",
+                                   "severity":  "medium",
+                                   "reason":  "Trial phase is missing"
+                               },
+                               {
+                                   "record_index":  40,
+                                   "nct_id":  "NCT00067886",
+                                   "field":  "phases",
+                                   "rule":  "required",
+                                   "severity":  "medium",
+                                   "reason":  "Trial phase is missing"
+                               },
+                               {
+                                   "record_index":  42,
+                                   "nct_id":  "NCT03130673",
+                                   "field":  "phases",
+                                   "rule":  "required",
+                                   "severity":  "medium",
+                                   "reason":  "Trial phase is missing"
+                               }
+                           ]
+}

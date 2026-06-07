@@ -32,3 +32,10 @@ Open `docs/opentriallens/index.html` in a browser. Live ClinicalTrials.gov searc
 If GitHub Pages is enabled from the `docs` folder on the `main` branch, the dashboard path will be:
 
 `https://akhilachanubala-alt.github.io/OpenTrialDQ/opentriallens/`
+## Sample Upload Dataset
+
+A public ClinicalTrials.gov diabetes-trials CSV is available for dashboard testing:
+
+- [sample-data/clinicaltrials_diabetes_50.csv](sample-data/clinicaltrials_diabetes_50.csv)
+- [sample-data/clinicaltrials_diabetes_50_results.json](sample-data/clinicaltrials_diabetes_50_results.json)
+- [sample-data/README.md](sample-data/README.md)
