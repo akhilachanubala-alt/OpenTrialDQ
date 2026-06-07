@@ -29,6 +29,8 @@ Read the full use case and flow here: [docs/use_case.md](docs/use_case.md)
 
 OpenTrialLens is a visual dashboard layer for OpenTrialDQ. It lets users search live ClinicalTrials.gov data or upload a clinical-study-style CSV file, run data quality checks, view clinical trial metrics, and export clean records, failed records, and an audit summary.
 
+Live dashboard: [OpenTrialLens](https://akhilachanubala-alt.github.io/OpenTrialDQ/opentriallens/)
+
 Open locally: [docs/opentriallens/index.html](docs/opentriallens/index.html)
 
 Dashboard documentation: [docs/opentriallens/README.md](docs/opentriallens/README.md)
