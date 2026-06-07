@@ -25,6 +25,14 @@ OpenTrialDQ helps data engineers validate public clinical trial data before anal
 
 Read the full use case and flow here: [docs/use_case.md](docs/use_case.md)
 
+## OpenTrialLens Dashboard
+
+OpenTrialLens is a visual dashboard layer for OpenTrialDQ. It lets users search live ClinicalTrials.gov data or upload a clinical-study-style CSV file, run data quality checks, view clinical trial metrics, and export clean records, failed records, and an audit summary.
+
+Open locally: [docs/opentriallens/index.html](docs/opentriallens/index.html)
+
+Dashboard documentation: [docs/opentriallens/README.md](docs/opentriallens/README.md)
+
 ## Current Features
 
 - ClinicalTrials.gov API URL builder and response flattener
@@ -171,6 +179,7 @@ Suggested repository topics are listed here: [docs/github_topics.md](docs/github
 
 ## Roadmap
 
+- OpenTrialLens visual dashboard MVP
 - ClinicalTrials.gov API ingestion and flattening
 - JSON flattening into bronze/silver/gold analytics tables
 - Schema drift detection

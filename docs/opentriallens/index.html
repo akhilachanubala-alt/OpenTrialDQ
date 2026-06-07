@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpenTrialLens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">OpenTrialDQ dashboard layer</p>
+      <h1>OpenTrialLens</h1>
+      <p class="subtitle">Search public ClinicalTrials.gov data, run quality checks, and visualize trial coverage.</p>
+    </div>
+    <nav class="links" aria-label="Project links">
+      <a href="../../README.md">Project</a>
+      <a href="https://github.com/akhilachanubala-alt/OpenTrialDQ">GitHub</a>
+      <a href="README.md">Docs</a>
+    </nav>
+  </header>
+
+  <main class="workspace">
+    <section class="panel controls-panel">
+      <form id="searchForm" class="controls">
+        <label>
+          <span>Condition</span>
+          <input id="queryTerm" type="search" value="cardiovascular" autocomplete="off">
+        </label>
+        <label>
+          <span>Records</span>
+          <select id="pageSize">
+            <option value="25">25</option>
+            <option value="50" selected>50</option>
+            <option value="100">100</option>
+          </select>
+        </label>
+        <button class="button primary" type="submit">Search Live Data</button>
+        <button class="button" id="sampleButton" type="button">Load Sample</button>
+        <label class="button upload" for="csvFile">Upload CSV</label>
+        <input id="csvFile" class="hidden" type="file" accept=".csv,text/csv">
+      </form>
+      <div id="statusMessage" class="status" role="status">Ready</div>
+    </section>
+
+    <section class="metrics" aria-label="Summary metrics">
+      <article class="metric"><span>Trials</span><strong id="totalTrials">0</strong></article>
+      <article class="metric"><span>Quality Score</span><strong id="qualityScore">0%</strong></article>
+      <article class="metric"><span>Recruiting</span><strong id="recruitingTrials">0</strong></article>
+      <article class="metric"><span>Failed Checks</span><strong id="failedChecks">0</strong></article>
+      <article class="metric"><span>Enrollment</span><strong id="totalEnrollment">0</strong></article>
+    </section>
+
+    <section class="dashboard" aria-label="Trial visualizations">
+      <article class="panel score-panel">
+        <div class="panel-head"><h2>Data Quality</h2><span id="qualityBadge" class="badge">No data</span></div>
+        <div class="score-layout">
+          <div class="score-ring" id="scoreRing" style="--score:0"><span id="scoreRingText">0%</span></div>
+          <div id="qualityIssueList" class="issue-list"></div>
+        </div>
+      </article>
+      <article class="panel"><h2>Study Status</h2><div id="statusChart" class="bars"></div></article>
+      <article class="panel"><h2>Trial Phase</h2><div id="phaseChart" class="bars"></div></article>
+      <article class="panel"><h2>Sponsor Class</h2><div id="sponsorChart" class="bars"></div></article>
+      <article class="panel"><h2>Country Coverage</h2><div id="countryChart" class="bars tall"></div></article>
+      <article class="panel"><h2>Start Year Trend</h2><div id="yearChart" class="bars tall"></div></article>
+    </section>
+
+    <section class="panel table-panel">
+      <div class="table-head">
+        <div><p class="eyebrow">Validation output</p><h2>Failed Records</h2></div>
+        <div class="actions">
+          <button class="button" id="exportCleanButton" type="button">Export Clean CSV</button>
+          <button class="button" id="exportFailedButton" type="button">Export Failed CSV</button>
+          <button class="button" id="exportAuditButton" type="button">Export Audit JSON</button>
+        </div>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>NCT ID</th><th>Field</th><th>Rule</th><th>Severity</th><th>Reason</th></tr></thead>
+          <tbody id="failedTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel table-panel">
+      <div class="table-head"><div><p class="eyebrow">Flattened records</p><h2>Trial Preview</h2></div></div>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>NCT ID</th><th>Status</th><th>Phase</th><th>Sponsor</th><th>Enrollment</th><th>Countries</th></tr></thead>
+          <tbody id="recordsTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>Public ClinicalTrials.gov or user-uploaded data only. No employer data or confidential business logic is used.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
