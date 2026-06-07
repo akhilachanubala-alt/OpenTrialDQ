@@ -35,6 +35,8 @@ Open locally: [docs/opentriallens/index.html](docs/opentriallens/index.html)
 
 Dashboard documentation: [docs/opentriallens/README.md](docs/opentriallens/README.md)
 
+Blog update: [Introducing OpenTrialLens: A Dashboard for Clinical Trial Data Quality and Visual Insights](https://lifesciencesdataengineering.hashnode.dev/introducing-opentriallens-a-dashboard-for-clinical-trial-data-quality-and-visual-insights)
+
 ## Current Features
 
 - ClinicalTrials.gov API URL builder and response flattener
@@ -148,11 +150,13 @@ result.audit_summary.show(truncate=False)
 
 
 
-## Published Article
+## Published Articles
 
 Read the first public article about OpenTrialDQ:
 
 [Designing Reusable Data Quality Checks for Public Clinical Trial Data with PySpark](https://lifesciencesdataengineering.hashnode.dev/designing-reusable-data-quality-checks-for-public-clinical-trial-data-with-pyspark)
+
+[Introducing OpenTrialLens: A Dashboard for Clinical Trial Data Quality and Visual Insights](https://lifesciencesdataengineering.hashnode.dev/introducing-opentriallens-a-dashboard-for-clinical-trial-data-quality-and-visual-insights)
 
 ## Citation and Publication
 
