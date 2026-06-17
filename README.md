@@ -37,6 +37,17 @@ Dashboard documentation: [docs/opentriallens/README.md](docs/opentriallens/READM
 
 Blog update: [Introducing OpenTrialLens: A Dashboard for Clinical Trial Data Quality and Visual Insights](https://lifesciencesdataengineering.hashnode.dev/introducing-opentriallens-a-dashboard-for-clinical-trial-data-quality-and-visual-insights)
 
+## Clinical Trial Data Quality Observatory
+
+OpenTrialDQ now includes a repeatable public reporting layer: the Clinical Trial Data Quality Observatory. The first baseline snapshot applies explainable data quality checks to 250 public ClinicalTrials.gov records across five condition searches.
+
+- Observatory overview: [docs/observatory/README.md](docs/observatory/README.md)
+- June 2026 baseline report: [docs/observatory/2026-06-baseline.md](docs/observatory/2026-06-baseline.md)
+- JSON report output: [docs/observatory/2026-06-baseline.json](docs/observatory/2026-06-baseline.json)
+- Report generator: [tools/generate_observatory_report.py](tools/generate_observatory_report.py)
+
+The baseline snapshot analyzes diabetes, breast cancer, cardiovascular disease, asthma, and Alzheimer disease searches using public ClinicalTrials.gov API records only.
+
 ## Current Features
 
 - ClinicalTrials.gov API URL builder and response flattener

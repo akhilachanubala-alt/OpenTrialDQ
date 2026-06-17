@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.2.0 - Clinical Trial Data Quality Observatory
+
+### Added
+
+- Public Clinical Trial Data Quality Observatory documentation.
+- Repeatable `tools/generate_observatory_report.py` script using the public ClinicalTrials.gov API v2.
+- June 2026 baseline snapshot covering 250 public records across diabetes, breast cancer, cardiovascular disease, asthma, and Alzheimer disease searches.
+- JSON and Markdown report outputs with quality scores, failed checks, enrollment totals, recruiting/completed counts, common failed rules, field failures, sponsor mix, and trial status mix.
+
+### Notes
+
+This observatory uses public ClinicalTrials.gov data only. It does not use employer data, proprietary schemas, patient-level records, internal project names, screenshots, or confidential business logic.
+
 ## v0.1.0 - Initial Public Scaffold
 
 ### Added

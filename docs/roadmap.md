@@ -12,6 +12,9 @@
 
 ## v0.2
 
+- Clinical Trial Data Quality Observatory baseline reports
+- Repeatable public ClinicalTrials.gov condition quality snapshots
+- Condition-level quality score, failure count, enrollment, status, phase, sponsor, and country summaries
 - ClinicalTrials.gov API ingestion example
 - JSON flattening utility
 - Bronze/silver/gold example output structure

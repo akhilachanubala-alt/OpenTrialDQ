@@ -43,4 +43,9 @@ A public ClinicalTrials.gov diabetes-trials CSV is available for dashboard testi
 
 - [sample-data/clinicaltrials_diabetes_50.csv](sample-data/clinicaltrials_diabetes_50.csv)
 - [sample-data/clinicaltrials_diabetes_50_results.json](sample-data/clinicaltrials_diabetes_50_results.json)
-- [sample-data/README.md](sample-data/README.md)
+- [sample-data/README.md](sample-data/README.md)`r`n`r`n## Clinical Trial Data Quality Observatory
+
+OpenTrialLens is also being extended into a public data quality observatory. The observatory publishes repeatable quality snapshots for selected ClinicalTrials.gov condition searches so users can compare data readiness before analytics.
+
+- [Observatory overview](../observatory/README.md)
+- [June 2026 baseline snapshot](../observatory/2026-06-baseline.md)
